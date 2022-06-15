@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 2px solid black;
+}
+.nav1{
+    height: 200px;
+    text-align: center;
+    background-color: coral;
+    background-image: url(/img/JCINF-070-Detail-Header-1250x400.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 35px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 3px 15px;
+}
+aside{
+    float: left;
+    height: 500px;
+    width: 50%;
+}
+article{
+    float: right;
+    width: 50%;
+}
